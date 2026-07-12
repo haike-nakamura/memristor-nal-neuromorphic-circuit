@@ -10,7 +10,7 @@
 | `02_architecture/four_modules.PNG` | 结题 PPT | 概念 | SJ / NAL / EN / MMAM 四模块 | 模块功能对照 |
 | `02_architecture/full_system.PNG` | 结题 PPT | 系统 | 三通道 SJ→NAL→EN + MMAM 总览 | 系统总览（PPT 版） |
 | `04_innovation/full-orcad.png` | OrCAD 截图 | 实现 | 完整 PSpice 工程，含方向性标注 | **系统总览（工程版）** |
-| `04_innovation/fig2-7_coexistence_circuit.jpg` | 论文图 2-7 | 模块 | 共存检测子电路 EC + AndEC | **共存检测专节** |
+| `04_innovation/fig2-7_coexistence_circuit.jpg` | 论文图 2-7 | 模块 | 共存检测子电路 CD + AndCD | **共存检测专节** |
 | `04_innovation/full_visio.jpg` | 论文图 2-8 | 模块 | MMAM 突触阵列 A + 检索 R | MMAM 原理 |
 | `04_innovation/coexistence_mmam_concept.PNG` | 结题 PPT | 概念 | 共存检测 + 忆阻交叉阵列一页讲清 | 共存检测概念引导 |
 | `04_innovation/coexistence_async_pulse_ch1.png` | 204组会 Slide 4 | 仿真 | 通道 1 异步脉冲串 | 与门失效说明（左） |
@@ -63,6 +63,6 @@ assets/
 
 1. 项目概要 → 主要仿真结果 → 核心贡献
 2. **忆阻模型改进**（文字）
-3. **共存检测与方向性突触**（问题 → 信号分层 → EC/VENG → 方向性验证 → 图 2-7/2-8）
+3. **共存检测与方向性突触**（问题 → 信号分层 → CD/AndCD → 方向性验证 → 图 2-7/2-8）
 4. **系统架构**（图 1-7 → 四大模块 → full_system → full-orcad）
 5. 仿真结果（含信号解读）→ 拓展应用 → 文献对比
