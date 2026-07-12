@@ -1,0 +1,177 @@
+FILE: 220320533结题ppt.pptx
+SLIDES: 29
+
+--- Slide 1 ---
+应用展望>> IV模拟生物功能综合应用展望研究成果 >> III复现学习规律实证跨模调制研究过程 >>II贯通四大模块重构仿生链路研究背景 >> I生物机理驱动忆阻器件赋能论文题目：面向多感官调制的非联想学习忆阻神经形态电路设计MAY/2025IEEEBio-Inspired Neuromorphic Circuit Design of Non-associative Learning for Multisensory Enhancement and Depression论文答辩报告/ / Final ReportCATALOGUE目 录汇报人：蒋彦熙REPOTTDUTY<<18 : 50MAY/28/2026
+
+--- Slide 2 ---
+应用展望>> IV模拟生物功能综合应用展望研究成果 >> III复现学习规律实证跨模调制研究过程 >>II贯通四大模块重构仿生链路研究背景 >> I生物机理驱动忆阻器件赋能CATALOGUE目 录
+
+--- Slide 3 ---
+仿生技术核心应用展望>> IV模拟生物功能综合应用展望研究成果 >> III复现学习规律实证跨模调制研究过程 >>II贯通四大模块重构仿生链路研究背景 >> I生物机理驱动忆阻器件赋能以四大电路模块构建“感知-学习-编码-整合”一体化仿生系统本文目标与总框架>>//研究背景 []生物学原理与启发>>非联想学习与多感官整合，是生物感知世界的根本机制现有研究与局限性>>忆阻神经形态电路蓬勃发展，但功能的完整性与集成度仍存不足“如何设计忆阻电路系统， 同时实现单通道的完整学习与多通道的交叉调制？”生物原理仿生功能忆阻特性
+
+--- Slide 4 ---
+高效能通过多感官整合，在极低能耗下完成快速感知与决策。神经形态计算借鉴生物机制，为构建低功耗、高鲁棒的智能系统提供新思路。以四大电路模块构建“感知-学习-编码-整合”一体化仿生系统本文目标与总框架>>生物学原理与启发>>非联想学习与多感官整合，是生物感知世界的根本机制现有研究与局限性>>忆阻神经形态电路蓬勃发展，但功能的完整性与集成度仍存不足>> 多感官整合Multisensory Integration       生物大脑以极低能耗实现多感官感知与高效学习，其内在机制为类脑计算提供了天然范本。·习惯化Habituation·敏感化Sensitization·去习惯化Dishabituation·自发恢复Spontaneous Recovery大脑将多感官信号综合处理过程 非联想学习Nonassociative Learning[]单一感官通道多信号协同 → 响应放大 重复刺激 / 感官冲突 → 响应削弱多感官增强 1 / 2多感官抑制 2/ 2<<模仿生物神经工作原理][忆阻器件存算一体特性，对突触可塑性天然模拟能力。
+
+--- Slide 5 ---
+以四大电路模块构建“感知-学习-编码-整合”一体化仿生系统本文目标与总框架>>生物学原理与启发>>非联想学习与多感官整合，是生物感知世界的根本机制现有研究与局限性>>忆阻神经形态电路蓬勃发展，但功能的完整性与集成度仍存不足参考文献输入刺激情感价效机制非联想学习功能神经编码功能多感官整合功能记忆联想方向机制单元面积[21]单感官×完全实现×/××[22]单感官×部分实现×/××[39]单感官×部分实现×/××[40] 单感官√部分实现×/××[43]多感官×××/多感官增强双向[44]多感官××频率编码/多感官增强×[45]多感官××频率编码/多感官增强单向[15]多感官××频率编码多感官增强双向本文多感官√完全实现频率编码多感官增强及抑制双向参考文献输入刺激情感价效机制非联想学习功能神经编码功能多感官整合功能记忆联想方向机制单元面积[21]单感官×完全实现×/××[22]单感官×部分实现×/××[39]单感官×部分实现×/××[40] 单感官√部分实现×/××[43]多感官×××/多感官增强双向[44]多感官××频率编码/多感官增强×[45]多感官××频率编码/多感官增强单向[15]多感官××频率编码多感官增强双向本文多感官√完全实现频率编码多感官增强及抑制双向缺乏将完整生物学习响应刺激链路同时实现的研究。>> 非联想学习不完整>> 仅关注多感官增强>> 忽略神经编码机制现存忆阻神经电路：→本文成果
+
+--- Slide 6 ---
+以四大电路模块构建“感知-学习-编码-整合”一体化仿生系统本文目标与总框架>>生物学原理与启发>>非联想学习与多感官整合，是生物感知世界的根本机制现有研究与局限性>>忆阻神经形态电路蓬勃发展，但功能的完整性与集成度仍存不足设计一套全电路方案，将非联想学习的四种行为与多感官增强/抑制集成于同一忆阻网络，为类脑感知提供低功耗、高鲁棒性的硬件原型。
+
+--- Slide 7 ---
+以四大电路模块构建“感知-学习-编码-整合”一体化仿生系统本文目标与总框架>>生物学原理与启发>>非联想学习与多感官整合，是生物感知世界的根本机制现有研究与局限性>>忆阻神经形态电路蓬勃发展，但功能的完整性与集成度仍存不足设计一套电路方案，将非联想学习的四种行为与多感官增强/抑制集成于同一忆阻网络，为类脑感知提供低功耗、高鲁棒性的硬件原型。
+
+--- Slide 8 ---
+本设计的模块电路图//研究过程 []感官通道Sensory channel刺激判断单元SJ Unit1/3非联想学习单元NAL Unit2/3编码神经元单元EN Unit3/3
+
+--- Slide 9 ---
+刺激判断单元SJ Unit非联想学习单元NAL Unit编码神经元单元EN Unit感官通道Sensory channel模态整合Multi-sensory bunch//研究过程 []应用展望>> IV模拟生物功能综合应用展望研究成果 >> III复现学习规律实证跨模调制研究方法 >>II贯通四大模块重构仿生链路研究背景 >> I生物机理驱动忆阻器件赋能本设计的总体电路图CircuitDesign电路单元设计
+
+--- Slide 10 ---
+EN单元CircuitDesign电路单元设计SJ单元NAL单元112
+
+--- Slide 11 ---
+33EN单元NAL单元112刺激判断Stimulus JudgmentSJ单元提取输入信号的强度与极性特征，识别“无害（Innocuous）”或“有害（Noxious）”刺激。>>情感强度价效映射测试四组不同刺激情境下对应的电压输入，结果表明可以分类，单元正常工作输入信号阈值分类                >>刺激分类阶段成果[]测试情景Vs(V)Vval(V)理论 Vic实际Vic理论 Vsc实际 Vsc理论 Vhc实际 Vhc轻微刺激0.10+0.103.002.9850.000.0013.002.999一般强度刺激1.00+0.100.000.00040.000.0013.002.999强烈消极刺激2.50-0.100.000.00043.002.9990.000.001强烈积极刺激2.50+0.100.000.00040.000.0013.002.999
+
+--- Slide 12 ---
+SJ单元33112非联想学习Non-Associative LearningEN单元NAL单元忆阻突触可塑性阶段成果[]将电压刺激转化为忆阻变化的累积。在硬件层面实现了生物非联想学习全特性模拟>>突触可塑性核心a. NAL单元输入b. NAL单元输出c. 习惯化忆阻值d. 敏感化忆阻值引入忆阻器作为突触元件，实现完整非联想学习机制。是仿生系统的核心逻辑单元双通路突触权重调制>>
+
+--- Slide 13 ---
+13312SJ单元NAL单元神经元放电阶段成果[]编码神经元Encoding Neuron将连续幅值转换为高频脉冲。脉冲频率编码（Rate Coding）模式符合生物神经动作电位>>感官通道输出调律积分-放电电路输出脉冲序列信号，复现神经元放电特性。脉宽扩展电路优化输出波形，确保时域覆盖。电压-频率转换>>a. 输出脉冲b. 表征信号输出c. 宽度拓展对比EN单元MMAM整合模态Multisensory Mutual Associative Memory
+
+--- Slide 14 ---
+跨模态关联映射：多感官增强与抑制特性全链路完整功能实证[]112     多感官相互联想记忆单元>高级认知功能模块。>整合多感官脉冲信号，处理跨模态相互增强抑制。>实现不同感觉刺激的双向关联。单元ASJ单元ANAL单元AENMMAM整合单元单元BSJ单元BNAL单元BEN单元ASJ单元ANAL单元AENMMAM整合模态Multisensory Mutual Associative Memory共存检测Coexistence Detection执行异步脉冲筛查。不同感官的脉冲需在有效窗口内重叠。实现赫布学习逻辑>>判定信号时空同步性忆阻交叉阵列Memristor Crossbar关联记忆的核心载体。通过各交叉点的忆阻阻值表征跨模态关联权重。在多模态共同驱动下实现权重的动态演化，多感官增强（MSE）与抑制（MSD）特性
+
+--- Slide 15 ---
+跨模态关联映射：多感官增强与抑制特性全链路完整功能实证[]<<//研究成果 []12MMAM整合模态Multisensory Mutual Associative Memory经由关联感官通道产生唤醒信号VR，激活本通道生理反应VM跨模态联想唤起>>非联想学习全过程>>习惯化、敏感化、去习惯化、自发恢复在NAL单元中的表征多感官整合差分>>多感官增强(MSE)与多感官抑制(MSD)，具体表现为MMAM阵列忆阻阻值变化1 / 32/ 33 / 3
+
+--- Slide 16 ---
+跨模态关联映射：多感官增强与抑制特性全链路完整功能实证[]<<a.无害刺激下非联想学习单元输出b.通道1为有害刺激，多种刺激作用下NAL单元输出经由关联感官通道产生换新信号VR，激活本通道生理反应VM跨模态联想唤起>>非联想学习全过程>>习惯化、敏感化、去习惯化、自发恢复在NAL单元中的表征多感官整合差分>>多感官增强(MSE)与多感官抑制(MSD)，具体表现为MMAM阵列忆阻阻值
+
+--- Slide 17 ---
+跨模态关联映射：多感官增强与抑制特性全链路完整功能实证[]<<a.无害刺激下MMAM阵列忆阻阻值b.通道1为有害刺激，多种刺激作用下阵列忆阻阻值经由关联感官通道产生换新信号VR，激活本通道生理反应VM跨模态联想唤起>>非联想学习全过程>>习惯化、敏感化、去习惯化、自发恢复在NAL单元中的表征多感官整合差分>>多感官增强(MSE)与多感官抑制(MSD)，具体表现为MMAM阵列忆阻阻值
+
+--- Slide 18 ---
+跨模态关联映射：多感官增强与抑制特性全链路完整功能实证[]<<1关注如图部分，右图中象征有害刺激对应感官通道连接强度的忆阻阻值，即红色图线与绿色图线，阻值更低。表明敏感化条件下，感官通道之间建立的联系强度更高经由关联感官通道产生换新信号VR，激活本通道生理反应VM跨模态联想唤起>>非联想学习全过程>>习惯化、敏感化、去习惯化、自发恢复在NAL单元中的表征多感官整合差分>>多感官增强(MSE)与多感官抑制(MSD)，具体表现为MMAM阵列忆阻阻值
+
+--- Slide 19 ---
+跨模态关联映射：多感官增强与抑制特性全链路完整功能实证[]<<1<<巡回信号VR在多感官整合出现时，跨模态激活响应。对比感官通道1的唤起信号与最终相应，如框选所示部分是由联想记忆实现。经由关联感官通道产生换新信号VR，激活本通道生理反应VM跨模态联想唤起>>非联想学习全过程>>习惯化、敏感化、去习惯化、自发恢复在NAL单元中的表征多感官整合差分>>多感官增强(MSE)与多感官抑制(MSD)，具体表现为MMAM阵列忆阻阻值
+
+--- Slide 20 ---
+Biological functionsTranscendent//应用展望 []“由完备电路到现实生物，从模仿走向真正应用”人工痛觉感受器//“语义饱和”//>>>>阈值特性“永不适应”弛豫“敏感化”>>>联想建立“认知重置”“退行”视听抑制>
+
+--- Slide 21 ---
+人工痛觉感受器//>>      具体分为“痛觉过敏”和“异常痛”痛觉感受器特性1/42/43/44/4   阈值特性：当且仅当有害刺激超过阈值，触发痛觉。  “永不适应”感受器永远不会适应有害刺激.   弛豫：痛觉刺激消失，反应逐渐下降最终消失。   敏感化：被刺激过的感受器响应更剧烈。热痛觉感受器响应机制示意图大接触面积 = -0.8V 小接触面积 = -0.2V 34℃39℃无响应无响应强烈痛觉阈值特性施加一段时间响应增强（痛觉过敏）撤下响应减弱（弛豫）无响应产生响应强烈痛觉阈值特性异常痛“永不适应”起始状态施加过程结果63℃
+
+--- Slide 22 ---
+人工痛觉感受器//    基于单通道的 SJ、NAL 与 EN 级联电路，验证系统对伤害性热刺激的生物学响应>>a.非联想学习单元输出b.敏感化忆阻阻值c.编码神经元输出
+
+--- Slide 23 ---
+Biological functionsTranscendent“语义饱和”//    基于双通道完整神经网络，模拟语义饱和现象>>a.视听通道输入信号强度b.忆阻阵列及NAL单元中忆阻阻值c.感官通道1编码神经元输出d.感官通道2巡回信号VR2
+
+--- Slide 24 ---
+Biological functionsTranscendent“语义饱和”//      0-5s内视听信号同时施加，检索巡回信号首次在1.7s出现，标志着视听模态联想建立。 1/4Biological functionsTranscendent
+
+--- Slide 25 ---
+Biological functionsTranscendent“语义饱和”//2/4Biological functionsTranscendent      5-6s内视觉信号（感官通道1）单独作用，成功唤起感官通道2听觉信号的响应，表现为在5s-5.4s内被激活，随后因习惯化消退。 
+
+--- Slide 26 ---
+Biological functionsTranscendentBiological functionsTranscendent“语义饱和”//      8-11s内视觉信号，再次唤起感官通道2的响应，但又随时间消退。这是语义饱和现象的直观呈现。3/4
+
+--- Slide 27 ---
+研究背景 >> I生物机理驱动忆阻器件赋能研究过程 >>II贯通四大模块重构仿生链路研究成果 >> III复现学习规律实证跨模调制应用展望>> IV模拟生物功能综合应用展望“语义饱和”//4/4      11-20s，调整视觉刺激强度，观察到恢复，语义饱和现象在极短时间内消退了，即“退行”现象的出现。 Biological functionsTranscendent
+
+--- Slide 28 ---
+应用展望>> IV模拟生物功能综合应用展望研究成果 >> III复现学习规律实证跨模调制研究过程 >>II贯通四大模块重构仿生链路研究背景 >> I生物机理驱动忆阻器件赋能CATALOGUE目 录
+
+--- Slide 29 ---
+汇报完毕，敬请老师指示>>/论文题目：面向多感官调制的非联想学习忆阻神经形态电路设计MAY/2025IEEEBio-Inspired Neuromorphic Circuit Design of Non-associative Learning for Multisensory Enhancement and Depression汇报人：蒋彦熙MAY/28/2026
+
+MEDIA FILES:
+  ppt/media/hdphoto1.wdp (109690 bytes)
+  ppt/media/hdphoto2.wdp (26617 bytes)
+  ppt/media/hdphoto3.wdp (23351 bytes)
+  ppt/media/hdphoto4.wdp (16072 bytes)
+  ppt/media/hdphoto5.wdp (15187 bytes)
+  ppt/media/hdphoto6.wdp (4807 bytes)
+  ppt/media/hdphoto7.wdp (1619 bytes)
+  ppt/media/hdphoto8.wdp (349806 bytes)
+  ppt/media/hdphoto9.wdp (283524 bytes)
+  ppt/media/image1.png (4856 bytes)
+  ppt/media/image10.png (9942 bytes)
+  ppt/media/image11.png (5108 bytes)
+  ppt/media/image12.png (10052 bytes)
+  ppt/media/image13.png (5505 bytes)
+  ppt/media/image14.png (11233 bytes)
+  ppt/media/image15.png (1974 bytes)
+  ppt/media/image16.png (2051 bytes)
+  ppt/media/image17.png (740 bytes)
+  ppt/media/image18.png (968 bytes)
+  ppt/media/image19.png (953388 bytes)
+  ppt/media/image2.png (8862 bytes)
+  ppt/media/image20.emf (100780 bytes)
+  ppt/media/image20.png (50347 bytes)
+  ppt/media/image21.png (79311 bytes)
+  ppt/media/image22.png (62723 bytes)
+  ppt/media/image23.png (143647 bytes)
+  ppt/media/image24.png (69906 bytes)
+  ppt/media/image25.png (79921 bytes)
+  ppt/media/image26.emf (375268 bytes)
+  ppt/media/image27.png (20070 bytes)
+  ppt/media/image28.png (17477 bytes)
+  ppt/media/image29.png (83221 bytes)
+  ppt/media/image3.png (10523 bytes)
+  ppt/media/image30.png (43857 bytes)
+  ppt/media/image31.emf (218296 bytes)
+  ppt/media/image32.png (44157 bytes)
+  ppt/media/image33.png (39373 bytes)
+  ppt/media/image34.png (44465 bytes)
+  ppt/media/image35.png (15488 bytes)
+  ppt/media/image36.svg (985 bytes)
+  ppt/media/image37.emf (113768 bytes)
+  ppt/media/image38.emf (550576 bytes)
+  ppt/media/image39.png (74382 bytes)
+  ppt/media/image4.png (3521 bytes)
+  ppt/media/image40.png (82665 bytes)
+  ppt/media/image41.png (106891 bytes)
+  ppt/media/image42.png (140389 bytes)
+  ppt/media/image43.png (11279 bytes)
+  ppt/media/image44.svg (2224 bytes)
+  ppt/media/image45.png (77467 bytes)
+  ppt/media/image46.png (2611 bytes)
+  ppt/media/image47.svg (2212 bytes)
+  ppt/media/image48.png (171581 bytes)
+  ppt/media/image49.png (10837 bytes)
+  ppt/media/image5.png (43641 bytes)
+  ppt/media/image50.svg (2144 bytes)
+  ppt/media/image51.png (17215 bytes)
+  ppt/media/image52.png (74086 bytes)
+  ppt/media/image53.png (13910 bytes)
+  ppt/media/image54.png (118403 bytes)
+  ppt/media/image55.png (2542 bytes)
+  ppt/media/image56.png (2542 bytes)
+  ppt/media/image57.png (1953 bytes)
+  ppt/media/image58.png (3305 bytes)
+  ppt/media/image59.png (2355 bytes)
+  ppt/media/image6.png (142229 bytes)
+  ppt/media/image60.png (97190 bytes)
+  ppt/media/image61.png (1639 bytes)
+  ppt/media/image62.png (1619 bytes)
+  ppt/media/image63.png (82286 bytes)
+  ppt/media/image64.png (64075 bytes)
+  ppt/media/image65.png (20818 bytes)
+  ppt/media/image66.png (20607 bytes)
+  ppt/media/image67.png (1956 bytes)
+  ppt/media/image68.png (170903 bytes)
+  ppt/media/image69.png (56095 bytes)
+  ppt/media/image7.png (2153 bytes)
+  ppt/media/image70.png (32080 bytes)
+  ppt/media/image700.png (18151 bytes)
+  ppt/media/image71.png (42342 bytes)
+  ppt/media/image72.png (4536936 bytes)
+  ppt/media/image73.png (28467 bytes)
+  ppt/media/image74.png (146164 bytes)
+  ppt/media/image740.png (23789 bytes)
+  ppt/media/image8.png (968 bytes)
+  ppt/media/image9.png (3302 bytes)

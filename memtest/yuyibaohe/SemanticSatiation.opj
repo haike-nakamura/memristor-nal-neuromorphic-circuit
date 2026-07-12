@@ -1,0 +1,167 @@
+(ExpressProject "SemanticSatiation"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "23.1 S009 (4285455)  [3/26/2025]-[03/25/26]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (Allegro Netlist Directory "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\semanticsatiation.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\semanticsatiation-pspicefiles\overall circuit\overall circuit.net"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\semanticsatiation-pspicefiles\overall circuit\11.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\semanticsatiation-pspicefiles\overall circuit\11.sim"
+        (DisplayName "OVERALL circuit-11")
+        (Type "PSpice Profile")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\semanticsatiation-pspicefiles\semanticsatiation.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\semanticsatiation-pspicefiles\semanticsatiation.lib"))))
+  (Folder "Logs")
+  (MPSSessionName "lenovo")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\semanticsatiation.dsn")
+      (Path "Design Resources" ".\semanticsatiation.dsn" "OVERALL circuit")
+      (Path "Design Resources" ".\semanticsatiation.dsn" "ANDFOREC")
+      (Path "Design Resources" ".\semanticsatiation.dsn" "ECunit")
+      (Path "Design Resources" ".\semanticsatiation.dsn" "NALunit")
+      (Path "Design Resources" ".\semanticsatiation.dsn" "SJunit")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Model Libraries")
+      (Path "PSpice Resources" "Simulation Profiles")
+      (Select "Design Resources" ".\semanticsatiation.dsn" "SJunit" "SJunit"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 642"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1308 28 688")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/AndEC1"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1308 28 688")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/AndEC2"))
+      (Path "E:\MEMTEST\YUYIBAOHE\SEMANTICSATIATION.DSN")
+      (Schematic "ANDFOREC")
+      (Page "andforec"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 28 5 1308 28 688")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/EC2"))
+      (Frame
+        (Placement "44 0 1 -1 -1 5 28 5 1308 28 688")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/EC1"))
+      (Path "E:\MEMTEST\YUYIBAOHE\SEMANTICSATIATION.DSN")
+      (Schematic "ECunit")
+      (Page "ECunit"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1308 28 688")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/SJ2"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1308 28 688")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/SJ1"))
+      (Path "E:\MEMTEST\YUYIBAOHE\SEMANTICSATIATION.DSN")
+      (Schematic "SJunit")
+      (Page "SJunit"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1308 28 688")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/EC1/COMPn"))
+      (Path "E:\MEMTEST\YUYIBAOHE\SEMANTICSATIATION.DSN")
+      (Schematic "COMP Up Vt0.3V of EN")
+      (Page "COMP Up Vt0.3V"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 28 5 1308 28 688")
+        (Scroll "0 241")
+        (Zoom "124")
+        (Occurrence "/"))
+      (Path "E:\MEMTEST\YUYIBAOHE\SEMANTICSATIATION.DSN")
+      (Schematic "OVERALL circuit")
+      (Page "MMAM"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 28 5 1308 28 688")
+        (Scroll "53 250")
+        (Zoom "100")
+        (Occurrence "/NAL1"))
+      (Path "E:\MEMTEST\YUYIBAOHE\SEMANTICSATIATION.DSN")
+      (Schematic "NALunit")
+      (Page "NALunit"))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 28 5 1308 28 688"))
+      (Path
+         "E:\MEMTEST\YUYIBAOHE\semanticsatiation-pspicefiles\semanticsatiation.lib")
+      (Scroll "0")
+      (Select "6 1 6 39")))
+  (PartMRUSelector
+    ("MOSFET N"
+      (FullPartName "MOSFET N.Normal")
+      (LibraryName "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (MbreakP
+      (FullPartName "MbreakP.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (POWER_NMOS_P
+      (FullPartName "POWER_NMOS_P.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (MbreakN3
+      (FullPartName "MbreakN3.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (MbreakP3
+      (FullPartName "MbreakP3.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "D:\Cadence\SPB_23.1\tools\capture\library"))

@@ -1,0 +1,70 @@
+(ExpressProject "saikai"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "23.1 S009 (4285455)  [3/26/2025]-[03/25/26]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\saikai.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (RootChangedForceReNetlist "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\saikai-pspicefiles\circuit part design\circuit part design.net"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\saikai-pspicefiles\circuit part design\11.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\saikai-pspicefiles\circuit part design\11.sim"
+        (DisplayName "Circuit Part Design-11")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\saikai.dsn")
+      (Path "Design Resources" ".\saikai.dsn" "Circuit Part Design")
+      (Path "Outputs")
+      (Select "Design Resources" ".\saikai.dsn" "Circuit Part Design" "EN"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 642"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 28 5 1308 28 688")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "E:\MEMTEST\SOMETHINGNEW\SAIKAI.DSN")
+      (Schematic "Circuit Part Design")
+      (Page "Nalunit"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1308 28 688")
+        (Scroll "-150 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "E:\MEMTEST\SOMETHINGNEW\SAIKAI.DSN")
+      (Schematic "Circuit Part Design")
+      (Page "EN")))
+  (MPSSessionName "lenovo"))

@@ -1,0 +1,89 @@
+(ExpressProject "SemanticSatiation"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "23.1 S009 (4285455)  [3/26/2025]-[04/13/26]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (Allegro Netlist Directory "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (File ".\mmam.dsn"
+      (Type "Schematic Design"))
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\mmam-pspicefiles\overall circuit\overall circuit.net"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (Folder "Logs")
+  (PartMRUSelector)
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\mmam-pspicefiles\overall circuit\testd.sim"
+        (DisplayName "OVERALL circuit-Testd")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\mmam-pspicefiles\overall circuit\testda.sim"
+        (DisplayName "OVERALL circuit-testda")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\mmam-pspicefiles\overall circuit\test11.sim"
+        (DisplayName "OVERALL circuit-test11")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\mmam-pspicefiles\overall circuit\testnonharm.sim"
+        (DisplayName "OVERALL circuit-testnonharm")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\mmam-pspicefiles\overall circuit\testno.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\mmam-pspicefiles\overall circuit\testno.sim"
+        (DisplayName "OVERALL circuit-testno")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (MPSSessionName "lenovo")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\mmam.dsn")
+      (Path "Design Resources" ".\mmam.dsn" "OVERALL circuit")
+      (Path "Design Resources" ".\mmam.dsn" "NALunit")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Simulation Profiles")
+      (Select "PSpice Resources" "Simulation Profiles"
+         ".\mmam-pspicefiles\overall circuit\test11.sim"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 642"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1308 28 688")
+        (Scroll "1432 1867")
+        (Zoom "124")
+        (Occurrence "/"))
+      (Path "E:\MEMTEST\MMAM DESIGN\MMAM.DSN")
+      (Schematic "OVERALL circuit")
+      (Page "MMAM"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1308 28 688")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/NAL1"))
+      (Path "E:\MEMTEST\MMAM DESIGN\MMAM.DSN")
+      (Schematic "NALunit")
+      (Page "NALunit"))))

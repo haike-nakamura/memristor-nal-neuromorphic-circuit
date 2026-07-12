@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# IDE / tooling
+.idea/
+.vscode/
+*.iml
+.agents/
+
+# OrCAD / PSpice — regeneratable outputs (often multi-GB)
+*.dat
+*-PSpiceFiles/
+
+# OrCAD backups & logs
+*.DBK
+*.OBK
+*.db
+consmgr.jrl
+consmgr.jrl,*
+*.err
+*.log
+*.symwiz.log
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# PPT / image extraction scratch
+assets/showcase/
+assets/04_innovation/_204_extract/
+
+# Windows junction duplicates (canonical: memristor/, memtest/)
+circuits/memristor/
+circuits/memtest/
+circuits/experimental/*
+!circuits/experimental/README.md
+
+# Large CSV exports (>100 MB — regenerate via PSpice; see simulation/README.md)
+simulation/data/noharm.csv
+memdataprocess/noharm.csv
+simulation/data/harmfulstmmalresult.csv
+memdataprocess/harmfulstmmalresult.csv
+simulation/data/SS.csv
+memdataprocess/SS.csv
+
+# Duplicate CSV copies (canonical: simulation/data/)
+memdataprocess/*.csv
+
+# Local draft / scratch
+readme_old.md

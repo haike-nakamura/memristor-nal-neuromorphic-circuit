@@ -1,0 +1,364 @@
+(ExpressProject "mem"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "23.1 S009 (4285455)  [3/26/2025]-[03/25/26]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (Allegro Netlist Directory "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\mem.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (Board_sim_option "VHDL_flow")
+    (RootChangedForceReNetlist "x")
+    (Display_Online_DRC_Results "FALSE"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\mem-pspicefiles\circuit design\circuit design.net"
+      (Type "Report"))
+    (File ".\mem-pspicefiles\circuit part design\circuit part design.net"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\mem-pspicefiles\circuit part design\sj test.sim"
+        (DisplayName "Circuit Part Design-SJ test")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\mem-pspicefiles\circuit part design\test.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\mem-pspicefiles\circuit part design\test.sim"
+        (DisplayName "Circuit Part Design-test")
+        (Type "PSpice Profile")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\mem-pspicefiles\mem.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\mem-pspicefiles\mem.lib"))))
+  (Folder "Logs")
+  (MPSSessionName "Haike Nakamura")
+  (PartMRUSelector
+    (VSRC
+      (FullPartName "VSRC.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (ABM2
+      (FullPartName "ABM2.Normal")
+      (LibraryName "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\ABM.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (ABM1
+      (FullPartName "ABM1.Normal")
+      (LibraryName "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\ABM.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (r
+      (FullPartName "r.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG_P.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (ABM2
+      (FullPartName "ABM2.Normal")
+      (LibraryName "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\ABM.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (POWER_PMOS_P
+      (FullPartName "POWER_PMOS_P.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (POWER_NMOS_P
+      (FullPartName "POWER_NMOS_P.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (OR2
+      (FullPartName "OR2.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\DIG_PRIM.OLB")
+      (DeviceIndex "0"))
+    (VPULSE
+      (FullPartName "VPULSE.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (DFF
+      (FullPartName "DFF.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\DIG_PRIM.OLB")
+      (DeviceIndex "0"))
+    (MbreakP3
+      (FullPartName "MbreakP3.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (r
+      (FullPartName "r.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG_P.OLB")
+      (DeviceIndex "0"))
+    (MbreakN3
+      (FullPartName "MbreakN3.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (MbreakN
+      (FullPartName "MbreakN.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (MbreakP
+      (FullPartName "MbreakP.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (VPULSE
+      (FullPartName "VPULSE.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (74HC04
+      (FullPartName "74HC04.Normal")
+      (LibraryName "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\74HC.OLB")
+      (DeviceIndex "0"))
+    (VPWL
+      (FullPartName "VPWL.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (memristor
+      (FullPartName "memristor.Normal")
+      (LibraryName "E:\MEMRISTOR\ZY_MEMRISTOR\MEMRISTOR_ZHANG.OLB")
+      (DeviceIndex "0"))
+    (LM358
+      (FullPartName "LM358.Normal")
+      (LibraryName "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\OPAMP.OLB")
+      (DeviceIndex "0"))
+    (LM393
+      (FullPartName "LM393.Normal")
+      (LibraryName "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\OPAMP.OLB")
+      (DeviceIndex "0"))
+    (INV
+      (FullPartName "INV.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\DIG_PRIM.OLB")
+      (DeviceIndex "0"))
+    (PORTBOTH-R
+      (LibraryName "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTBOTH-L
+      (LibraryName "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (LM393
+      (FullPartName "LM393.Normal")
+      (LibraryName "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\OPAMP.OLB")
+      (DeviceIndex "0"))
+    (PORTBOTH-R
+      (LibraryName "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (74HC08
+      (FullPartName "74HC08.Normal")
+      (LibraryName "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\74HC.OLB")
+      (DeviceIndex "0"))
+    (AND2
+      (FullPartName "AND2.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\DIG_PRIM.OLB")
+      (DeviceIndex "0"))
+    (INVTL
+      (FullPartName "INVTL.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\DIG_PRIM.OLB")
+      (DeviceIndex "0"))
+    (INVTH
+      (FullPartName "INVTH.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\DIG_PRIM.OLB")
+      (DeviceIndex "0"))
+    (AND2
+      (FullPartName "AND2.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\DIG_PRIM.OLB")
+      (DeviceIndex "0"))
+    (DIGIFPWR
+      (FullPartName "DIGIFPWR.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\SPECIAL.OLB")
+      (DeviceIndex "0"))
+    (CD4000_PWR
+      (FullPartName "CD4000_PWR.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\SPECIAL.OLB")
+      (DeviceIndex "0"))
+    (PARAM
+      (FullPartName "PARAM.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\SPECIAL.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "D:\Cadence\SPB_23.1\tools\capture\library\pspice")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\mem.dsn")
+      (Path "Design Resources" ".\mem.dsn" "Circuit Part Design")
+      (Path "Design Resources" ".\mem.dsn" "Justification")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Model Libraries")
+      (Path "PSpice Resources" "Simulation Profiles")
+      (Select "Design Resources" ".\mem.dsn" "Circuit Part Design" "SJ unit"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 666"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1308 28 688")
+        (Scroll "-97 2")
+        (Zoom "111"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1308 28 688")
+        (Scroll "-97 2")
+        (Zoom "111"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1308 28 688")
+        (Scroll "-97 2")
+        (Zoom "111"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1308 28 688")
+        (Scroll "-97 2")
+        (Zoom "111")
+        (Occurrence "/COMPH"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1308 28 688")
+        (Scroll "325 326")
+        (Zoom "200")
+        (Occurrence "/CMOPS"))
+      (Path "E:\MEMRISTOR\MEM.DSN")
+      (Schematic "COMPH DOWN Vt0.1v")
+      (Page "COMPHofNAL"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1308 28 688")
+        (Scroll "-97 2")
+        (Zoom "111"))
+      (Path "E:\MEMRISTOR\MEM.DSN")
+      (Schematic "COMP Up Vt0.3V of EN")
+      (Page "COMP Up Vt0.3V"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1308 28 688")
+        (Scroll "-97 2")
+        (Zoom "111"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1308 28 688")
+        (Scroll "-97 2")
+        (Zoom "111"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1308 28 688")
+        (Scroll "-97 2")
+        (Zoom "111"))
+      (Path "E:\MEMRISTOR\MEM.DSN")
+      (Schematic "COMPE Up Vt0.5V of EN")
+      (Page "COMPE Up Vt0.5V of EN"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1308 28 688")
+        (Scroll "28 146")
+        (Zoom "128")
+        (Occurrence "/"))
+      (Path "E:\MEMRISTOR\MEM.DSN")
+      (Schematic "Circuit Part Design")
+      (Page "Nalunit"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 28 5 1308 28 688")
+        (Scroll "-199 0")
+        (Zoom "90")
+        (Occurrence "/"))
+      (Path "E:\MEMRISTOR\MEM.DSN")
+      (Schematic "Circuit Part Design")
+      (Page "ENcodunit"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1308 28 688")
+        (Scroll "-150 0")
+        (Zoom "100"))
+      (Path "E:\MEMRISTOR\MEM.DSN")
+      (Schematic "Justification")
+      (Page "PAGE1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 28 5 1308 28 688")
+        (Scroll "946 558")
+        (Zoom "124")
+        (Occurrence "/"))
+      (Path "E:\MEMRISTOR\MEM.DSN")
+      (Schematic "Circuit Part Design")
+      (Page "SJ unit"))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1308 28 688"))
+      (Path "E:\MEMRISTOR\mem-pspicefiles\mem.lib")
+      (Scroll "0"))))

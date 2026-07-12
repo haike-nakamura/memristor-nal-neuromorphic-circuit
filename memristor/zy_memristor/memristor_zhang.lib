@@ -1,0 +1,31 @@
+* PSpice Model Editor - Version 23.1.0
+*$
+* PSpice Model Editor - Version 23.1.0
+.SUBCKT memristor_V Plus Minus PARAMS:
++ Ron=10 Roff=420 Rinit=20 D=3N uv=1.6E-12 p=10 Vt1=0.19V Vt2=-0.37V Ioff=1e-5 I0=1e-3
+Gx 0 x value={ Ioff/(I(Emem)-I0)*uv*stp(V(Plus,Minus)-Vt1)*Ron/D^2*f_inc(V(x),p) + I(Emem)*uv*stp(Vt2-V(Plus,Minus))*Ron/D^2*f_dec(V(x),p)}
+Cx x 0 1 IC={(Roff-Rinit)/(Roff-Ron)}
+Raux x 0 1T
+Emem Plus aux value={-I(Emem)*V(x)*(Roff-Ron)}
+Roff aux Minus {Roff}
+Eflux flux 0 value={SDT(V(Plus,Minus))}
+Echarge charge 0 value={SDT(I(Emem))}
+.func f_inc(x,p)={1-x^(2*p)*stp(x)+stp(-x)}
+.func f_dec(x,p)={1-(1-x)^(2*p)*stp(-x+1)+stp(x-1)}
+.ENDS memristor_V
+*$
+*-------------------------------------------------------------------------
+*
+*
+*  1 INPUT INVERTER
+*
+.SUBCKT INV  I0  O
++	optional: DPWR=$G_DPWR DGND=$G_DGND
+*
+U1 INV
++  DPWR  DGND
++  I0  O
++  D_PLD_GATE IO_PLD
+*
+.ENDS
+*$
