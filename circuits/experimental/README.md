@@ -2,7 +2,7 @@
 
 在 NAL 单元旁并联**新奇度检测通路**，实现「覆盖而非擦除」的去习惯化机制——属于超纲扩展功能的原理级原型。
 
-- 工程：[`memtest/somethingnew/saikai.opj`](../memtest/somethingnew/saikai.opj)
+- 工程：`saikai.opj`（本目录）
 - 设计说明：[`../../docs/design-notes/非联想学习神经形态电路的生物合理性改进：引入新奇度机制.txt`](../../docs/design-notes/非联想学习神经形态电路的生物合理性改进：引入新奇度机制.txt)
 
 ## 电路要点
