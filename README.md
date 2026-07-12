@@ -33,8 +33,7 @@
 
 > **落地场景** — 该电路架构可面向低功耗人工感知芯片，为边缘端多模态智能传感器提供类脑学习与感官整合能力。
 
-<details>
-<summary><strong>技术栈明细</strong>（点击展开）</summary>
+##技术栈明细
 
 | 类别 | 技术 / 工具 | 本项目应用 |
 |------|-------------|------------|
@@ -42,10 +41,6 @@
 | **电路设计** | OrCAD Capture · 比较器 / DFF / PMOS 门控 · 忆阻交叉阵列 | 四功能模块 + 共存检测子电路 + 三通道系统集成 |
 | **仿真验证** | PSpice · 40 s 级联仿真 · 波形 CSV 导出 | NAL 四过程、MSE/MSD、方向性权值演化全链路验证 |
 | **数据处理** | Python 3.10+ · pandas · matplotlib · `draw.py` | PSpice 导出 CSV 的后处理与波形复现 |
-
-</details>
-
----
 
 <details>
 <summary><strong>全文目录</strong>（点击展开章节导航）</summary>
